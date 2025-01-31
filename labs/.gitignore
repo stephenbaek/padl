@@ -1,6 +1,2 @@
 results
-data
 utils_ex
-
-# Except
-!data/1D_Burger.npz
