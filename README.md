@@ -14,23 +14,72 @@ Lecture materials for the "Physics-Aware Deep Learning" course (Prof. Stephen Ba
 | Deep Reduced Order Modeling | [slides](lectures/07_Deep%20Reduced%20Order%20Modeling.pdf) | - |
 | Generative Networks and Digital Twins | [slides](lectures/08_Generative%20Networks.pdf) | - |
 
-## Get Started
 
-### TODO: How to install Anaconda/Miniconda
 
-### TODO: How to create a virtual environment
-```bash
-conda create -n padl python=3.11 ipykernel
-```
 
-```bash
-conda activate padl
-```
+## Get Started with Google Colab (Recommended)
+
+TODO
+
+## Get Started on Your Local Machine
+
+### (Option 1) Installing Anaconda/Miniconda
+Anaconda and Miniconda are popular package managers for Python, especially for data science and machine learning. Anaconda comes with a large collection of pre-installed packages, while Miniconda provides a minimal setup with only essential tools. You just need to install both, but choose one you need.
+
+#### Installing Miniconda (Recommended)
+1. Download Miniconda
+    - Visit the [Miniconda download page](https://www.anaconda.com/download/success/#miniconda).
+    - Select the installer for your operating system.
+
+1. Run the Installer
+    - On Windows, execute the downloaded .exe file and follow the instructions.
+    - On macOS and Linux, run the following command in the terminal:
+        ```bash
+        bash Miniconda3-*.sh
+        ```
+    - Follow the prompts to complete the installation.
+
+1. Verify Installation
+    - Open a terminal or command prompt and type below. If Miniconda is installed correctly, it will display the installed version.
+        ```bash
+        conda --version
+        ```
+
+#### Installing the Full Anaconda
+1. Download Anaconda
+    - Visit the [official Anaconda website](https://www.anaconda.com/download/success).
+    - Choose the appropriate installer for your operating system (Windows, macOS, Linux).
+1. Run the Installer
+    - On Windows, run the .exe file and follow the installation prompts.
+    - On macOS and Linux, run the .sh script in the terminal using:
+        ```bash
+        bash Anaconda3-*.sh
+        ```
+    - Follow the on-screen instructions.
+1. Verify Installation
+
+    - Open a terminal or command prompt and type below. If Anaconda is installed correctly, it will display the installed version.
+        ```bash
+        conda --version
+        ```
+
+#### Post-Installation Setup (For both Miniconda and Anaconda)
+Conda virtual environments allow users to create isolated Python environments with specific dependencies. This helps prevent conflicts between different packages and projects. Each environment can have its own Python version and set of libraries. Using Conda environments ensures a clean and manageable workspace for different projects.
+
+1. Create a virtual environment:
+    ```bash
+    conda create -n padl python=3.11 ipykernel
+    ```
+
+2. Activate the environment:
+    ```bash
+    conda activate padl
+    ```
 
 ### TODO: Install PyTorch
 
 
 ### TODO: Install dependencies
 ```bash
-
+pip install -r requirements.txt
 ```
