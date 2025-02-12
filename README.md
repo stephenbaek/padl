@@ -6,10 +6,10 @@ Lecture materials for the "Physics-Aware Deep Learning" course (Prof. Stephen Ba
 |   ----------------------------    | ---------------------------------------------------------------- | ------  |
 | Course Orientation                | [slides](lectures/00_Orientation.pdf)                            | -       |
 | Introduction to Neural Networks   | [slides](lectures/01_Introduction%20to%20Neural%20Networks.pdf)  | [intro](labs/01_introduction_to_pytorch.ipynb) |
-| Convolutional Neural Networks     | [slides](lectures/02_Convolutional%20Neural%20Networks.pdf)      | [crack](labs/02_cnn_crack_detection.ipynb) |
+| Convolutional Neural Networks     | [slides](lectures/02_Convolutional%20Neural%20Networks.pdf)      | [crack](labs/02_cnn_crack_detection.ipynb),<br/>[data](https://www.dropbox.com/scl/fi/wphgza0mjlydbr4zunyhe/padl-concrete-crack-detection.zip?rlkey=myi6h7adrlmu7gncbx1ygizmx&st=fxr3ei1d&dl=1) |
 | How to Train Convolutional Neural Networks | [slides](lectures/03_How%20to%20Train%20Convolutional%20Neural%20Networks.pdf) | [autograd](labs/03_1_autograd.ipynb) |
 | Physics Informed Neural Networks | [slides](lectures/04_Physics-informed%20neural%20networks.pdf) | [harmonic](labs/03_2_pinn_harmonic_oscillator.ipynb),<br/>[heat](labs/03_3_pinn_1d_heat_diffusion.ipynb) |
-| Neural Operators | [slides](lectures/05_Neural%20Operators.pdf) | [lab](labs/04_neural_op_1d_burger.ipynb)|
+| Neural Operators | [slides](lectures/05_Neural%20Operators.pdf) | [lab](labs/04_neural_op_1d_burger.ipynb),<br/>[data](https://www.dropbox.com/scl/fi/hy3volvnwa4p32t2w7pp8/1D_Burger.npz?rlkey=08x7dwfubz7n3si87f8w05q0f&st=0ljrr39o&dl=1) |
 | Physics-Aware Recurrent Convolutions | [slides](lectures/06_Physics-Aware%20Recurrent%20Convolutions.pdf) | [lab](labs/05_parc_harmonic_oscillator.ipynb) |
 | Deep Reduced Order Modeling | [slides](lectures/07_Deep%20Reduced%20Order%20Modeling.pdf) | - |
 | Generative Networks and Digital Twins | [slides](lectures/08_Generative%20Networks.pdf) | - |
